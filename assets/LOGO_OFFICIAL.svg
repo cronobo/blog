@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="36.96463mm"
+   height="41.041668mm"
+   viewBox="0 0 130.97703 145.42323"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="LOGO_OFFICIAL.svg"
+   inkscape:export-filename="C:\Users\remib\Gitlab\frontend\src\assets\logo_512.png"
+   inkscape:export-xdpi="351.52567"
+   inkscape:export-ydpi="351.52567">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4214"
+       inkscape:collect="always">
+      <stop
+         id="stop4216"
+         offset="0"
+         style="stop-color:#27a4c8;stop-opacity:1" />
+      <stop
+         id="stop4218"
+         offset="1"
+         style="stop-color:#4df168;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4140">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4142" />
+      <stop
+         style="stop-color:#ff00dd;stop-opacity:1"
+         offset="1"
+         id="stop4144" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4214"
+       id="linearGradient4215"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1165.6465,-49.887523)"
+       x1="345.36371"
+       y1="554.52252"
+       x2="346.12134"
+       y2="523.51239" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4140"
+       id="linearGradient4687"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-958.14486,-15.832113)"
+       x1="344.35358"
+       y1="552.24969"
+       x2="344.35358"
+       y2="522.24969" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="82.46889"
+     inkscape:cy="94.023497"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-center="false"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4150"
+       originx="-1959.5113"
+       originy="1535.295" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1959.5115,-2442.234)">
+    <g
+       id="g5487" />
+    <g
+       transform="matrix(1.5852716,0.42154735,-0.42154735,1.5852716,884.73575,24.268335)"
+       aria-label="O"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.5px;line-height:1.25;font-family:Vulpes;-inkscape-font-specification:Vulpes;letter-spacing:0px;word-spacing:0px;fill:#671dda;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       id="g5318" />
+    <g
+       id="g4935"
+       transform="translate(-279.73539)">
+      <path
+         inkscape:export-ydpi="72.282402"
+         inkscape:export-xdpi="72.282402"
+         inkscape:export-filename="C:\Users\remib\Gitlab\frontend\src\assets\logo_128.png"
+         id="path4920"
+         d="m 2356.2024,2556.8484 a 60.9375,60.9375 0 0 1 -44.2439,19.0347 60.9375,60.9375 0 0 1 -60.9375,-60.9375 60.9375,60.9375 0 0 1 60.9375,-60.9375 60.9375,60.9375 0 0 1 17.154,2.4642"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#3a50ac;stroke-width:9.375;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="72.282402"
+         inkscape:export-xdpi="72.282402"
+         inkscape:export-filename="C:\Users\remib\Gitlab\frontend\src\assets\logo_128.png"
+         id="path4922"
+         d="m 2356.7403,2540.5849 a 51.602131,51.602131 0 0 1 -44.7818,25.9628 51.602131,51.602131 0 0 1 -51.6021,-51.6021 51.602131,51.602131 0 0 1 51.6021,-51.6022 51.602131,51.602131 0 0 1 32.7456,11.721"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#1f7ac7;stroke-width:9.375;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.9844358"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="72.282402"
+         inkscape:export-xdpi="72.282402"
+         inkscape:export-filename="C:\Users\remib\Gitlab\frontend\src\assets\logo_128.png"
+         id="path4924"
+         d="m 2338.828,2547.5778 a 42.270946,42.270946 0 0 1 -26.8695,9.6387 42.270946,42.270946 0 0 1 -42.271,-42.2709 42.270946,42.270946 0 0 1 42.271,-42.271 42.270946,42.270946 0 0 1 24.0349,7.4981"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#97b1e4;stroke-width:9.375;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
