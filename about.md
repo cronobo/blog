@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Cronobo, the team
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Cronobo is a company based in Toulouse, France, and composed of a small team of web developpers.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+We specialize in automation, data collection, data processing, and data visualization.
+We develop and maintain specifically tailored, custom software.
 
+We can be reached at [contact@cronobo.com](mailto:contact@cronobo.com).
 
-[jekyll-organization]: https://github.com/jekyll
+## Cronobo, the platform
+
+We are developping the eponym [cronobo](https://cronobo.com) platform both as a showcase of our capabilities in web and cloud applications, and an experimentation platform.
+
+Feel free to give it a try !
