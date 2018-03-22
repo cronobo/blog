@@ -3,20 +3,16 @@ layout: post
 title: How to deploy to Firebase from Gitlab-CI
 ---
 
-Firebase is a great solution to quickly deploy and host static files. we use it to serve [our frontend VueJS application](https://cronobo.com).
+Firebase is a great solution to quickly deploy and host static files. At [Cronobo](https://cronobo.com), we use it to serve [our frontend VueJS application](https://cronobo.com).
 
-Some people read *static files* and immediately think about old pure-html websites, but this is not true.
+**Note:** Some people read *static files* and immediately think about old pure-html websites, but this is not true.
 If your are using an application bundler such as Webpack, after building, your single-page application becomes a set of static files. And can be hosted by Firebase.
 
-At Cronobo, our core philosophy is to automate as much as possible workflows, for our customers and of course for ourselves.
-
-Automating application deployment is a fundamental part of our internal development process. It eliminates human errors, reduces deployment time, gives developers a peculiar sense of satisfaction that once their code is reviewed and merged, it goes live without waiting for someone to perform the deployment by hands.
-
-We use [Gitlab](https://gitlab.org) to host our source code, and we will use Gitlab's continuous integration (Gitlab-CI) to perform the deployment each time new modifications are pushed to the master branch.
+In this article, we use [Gitlab](https://gitlab.org) to host our source code, and we will use Gitlab's continuous integration service (Gitlab-CI) to perform the deployment each time new modifications are pushed to the master branch.
 
 # Configuring .gitlab-ci.yml for Firebase deploy
 
-Install firebase locally:
+Let's start by installing firebase locally on your machine:
 
 ```
 npm install -g firebase-tools
@@ -37,15 +33,15 @@ The command should reply the following message:
 Example: firebase deploy --token "$FIREBASE_TOKEN"
 ```
 
-Go to Gitlab -> Settings -> CI/CD -> Secret Variables and add a new variable
+Go to Gitlab -> Settings -> CI/CD -> Secret Variables and add a new variable:
 
 | key | value |
 |-|-|
 | FIREBASE_TOKEN | `YOUR FIREBASE TOKEN FROM ABOVE` |
 
-Let's see the complete `.gitlab-ci.yml` file. (If you don't know about this file that should be located with your source code, read [this](https://docs.gitlab.com/ee/ci/quick_start/README.html)).
+Let's now have a look at the complete `.gitlab-ci.yml` file:
 
-> In the deployment script below, the static files are located in the `dist` folder. If your build process locates the files elsewhere, change from `dist` to this folder.
+(If you don't know about this particular file, read [this](https://docs.gitlab.com/ee/ci/quick_start/README.html)).
 
 ```
 stages:
@@ -64,6 +60,8 @@ deploy:
     - master
 ```
 
+> Here, the static files are located in the `dist` folder. If your build process generates the files elsewhere, change from `dist` accordingly.
+
 We will review line by line what it does:
 
 ```
@@ -71,7 +69,7 @@ stages:
   - deploy
 ```
 
-We first add a `deploy` stage to stages list. In Gitlab's UI this will display a new stage like this:
+We first add a `deploy` stage to stages list. In Gitlab's UI this will display a new `deploy` stage like this:
 
 ![Deploy stage appeareance in Gitlab's UI](../assets/deploy-stage-ui.png)
 
@@ -111,6 +109,14 @@ Then, we move inside the folder where the static files are located, and run the 
 The `only` option tells gitlab to run this script only on master branch. With Git, a widely used convention is to use the master branch only for clean, production-ready code. Any features or bug-fixes should be located inside other branches, and merged to master only when they conform to the quality levels expected for production.
 
 Using this `only` option, the website will be deployed only when a merge-request to `master` is accepted.
+
+# Benefits
+
+At Cronobo, our core philosophy is to automate as much as possible workflows, for our customers and of course for ourselves.
+
+Automating application deployment is a fundamental part of our internal development process.
+
+Automation eliminates human errors, reduces deployment time, gives developers a peculiar sense of satisfaction that once their code is reviewed and merged, it goes live without waiting for someone to perform the deployment by hands. It gives people confidence in their workflow, and capability to react quickly in case of critical issues.
 
 # Contribute
 
