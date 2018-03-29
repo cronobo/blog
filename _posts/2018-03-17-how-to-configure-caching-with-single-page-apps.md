@@ -39,7 +39,7 @@ Let’s take the example of an application, built with Webpack, that uses filena
 
 After building your SPA, you end up with an index.html, a few JS files, and assets (CSS, images, etc). 
 
-![A VueJS app, built with webpack, with fingerprinted filenames](../assets/webpack_build.png)
+![A VueJS app, built with webpack, with fingerprinted filenames](/assets/webpack_build.png)
 
 As you can see, the application files app.xxxxxxxxxx.js are fingerprinted.
 

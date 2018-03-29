@@ -13,7 +13,7 @@ In Google's search console, there is a tool called `Explore like Google` that sh
 
 Here is how a Vue app looks like:
 
-![A VueJS app appears empty to Googlebot](../assets/empty-googlebot-page.png)
+![A VueJS app appears empty to Googlebot](/assets/empty-googlebot-page.png)
 
 Nothing. The void.
 
@@ -121,7 +121,7 @@ Then:
 4. Request a new exploration of any of your pre-rendered routes
 5. And observe the result !
 
-![This time Google bot sees your page correctly](../assets/filled-googlebot-page.png)
+![This time Google bot sees your page correctly](/assets/filled-googlebot-page.png)
 
 # Conclusion
 

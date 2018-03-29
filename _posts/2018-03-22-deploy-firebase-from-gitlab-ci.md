@@ -71,7 +71,7 @@ stages:
 
 We first add a `deploy` stage to stages list. In Gitlab's UI this will display a new `deploy` stage like this:
 
-![Deploy stage appeareance in Gitlab's UI](../assets/deploy-stage-ui.png)
+![Deploy stage appeareance in Gitlab's UI](/assets/deploy-stage-ui.png)
 
 ```
 deploy:
